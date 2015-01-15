@@ -1,3 +1,7 @@
 targets:
   ubuntu-14.04:
+    build_dependencies:
+      - libicu-dev
+      - cmake
+      - pkg-config
 cli: octodown
